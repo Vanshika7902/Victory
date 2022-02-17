@@ -1,0 +1,302 @@
+*
+{
+    margin:0px;
+    padding: 0px;
+}
+
+
+#navbar{
+
+    display: flex;
+     align-items: center; 
+     position: relative;
+     top: 0px;
+    
+
+}
+
+#navbar::before{
+    content: "";
+    background-color: rgb(3, 0, 0);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+    
+}
+
+#logo{
+    margin:13px 15px;
+}
+#logo img{
+    
+    height:80px;
+    margin:13px 15px;
+    
+}
+#navbar ul{
+    display: flex;
+    
+} 
+
+  #navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+
+   
+} 
+
+#navbar ul li a{
+
+    color: blanchedalmond;
+    display: block;
+    padding: 13px 15px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+    color:black;
+    background: white;
+}
+
+ #home
+{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+}
+
+#home h1{
+    color: rgb(94, 9, 9);
+    text-align: center;
+    font-family: 'Baloo 2', cursive;
+} 
+
+#home p{
+    color: rgb(20, 2, 2);
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'Baloo 2', cursive;
+}  
+
+ #home::before
+{
+    content: "";
+    background: url('tools/mobilebg2.jpg')no-repeat center center/cover;
+   position: absolute;
+   top: 0px;
+    left: 0px;
+    height: 101%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+} 
+
+ .btn
+{
+    padding: 6px 20px;
+    border:2px solid white;
+    background-color: brown;
+    color: white;
+    margin: 17px 17px;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    cursor: pointer;
+} 
+
+
+.h-primary{
+    display: block;
+    margin: 20px auto;
+    font-size: 3.8rem;
+    padding: 10px;
+    font-family: 'Baloo 2', cursive;
+    text-align: center;
+    /* align-items: center;
+    justify-content: center; */
+    
+}
+
+.services-container #mobile
+{
+    /* display: flex; */
+    display:block;
+    height:500px;
+    margin: auto 570px;
+   
+}
+
+.services-container #mobile img{
+    height:500px;
+    width:300px;
+}
+
+ #services{
+
+    display: flex;
+    margin: 34px;
+}
+
+.services-container::before
+{
+    content:"";
+    background-color: white;
+    position:relative;
+    top:0px;
+    left:0px;
+    height:100%;
+    width:100%;
+    z-index:-1;
+    opacity:0.7;
+}
+
+#services .box{
+    border: 2px solid brown;
+    padding: 18px;
+    margin:23px 26px;
+    border-radius: 53px;
+    background-color: #f2f2f2;
+    font-family: 'Baloo 2', cursive;
+    height:149px; 
+}
+
+#services .box img{
+    height:100px;
+    /* position: relative; */
+    display: block;
+    margin:auto;
+} 
+
+#services #Touch
+{
+    position: relative;
+    /* top:170px;*/
+     left:280px;  
+}
+#services #view 
+{
+    position: relative;
+    top:104px;
+     left: 193px;
+    /* margin:14px 93px; */
+}
+
+#services #Display
+{
+    position: relative;
+    top:170px;
+     left:330px; 
+}
+
+#services #RearCamera
+{
+    position: relative;
+    top:400px;
+    left:200px;
+}
+
+#services #FrontCamera
+{
+    position: relative;
+    right:860px;
+    top:350px;
+}
+
+#services #BatteryCapacity
+{
+    position: relative;
+    right:929px;
+    top:540px;
+}
+
+/* #services .combine
+{
+    flex-direction: column;
+} */
+
+/* client-section */
+
+
+/* #client-section{
+    height: 450px;
+}
+
+#client-section::before{
+    content: "";
+    background: url('img/Restaurant.jpg') no-repeat center center/cover;
+    position: absolute;
+    /* top: 1300px;
+     left: 0px; 
+    height: 60%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#clients .client-items{
+    padding:34px;
+    margin: 3px 6px;
+}
+
+#clients .client-items img{
+    height:250px;
+} */
+
+#contact{
+    position: relative;
+}
+#contact::before{
+    content: "";
+    background: url('tools/Contact\ us.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+
+#contact-box textarea,#contact-box input{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+}
+
+#contact-box form{
+    width:40%;
+}
+
+#contact-box label{
+    font-size: 1.3rem;
+    font-family: 'Baloo 2', cursive;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 10px 489px;
+}
+
+
+
+/* https://image.shutterstock.com/image-vector/phone-icon-vector-telephone-mobile-260nw-1728399616.jpg */
